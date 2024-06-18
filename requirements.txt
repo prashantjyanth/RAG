@@ -1,7 +1,7 @@
 langchain
 llama-index
 streamlit-authenticator
-streamlit>=1.31.0
+streamlit
 ollama
 torch
 transformers
