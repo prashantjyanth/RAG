@@ -1,0 +1,4 @@
+services:
+    streamlit:
+        image: myresistry.azurecr.io/gspann:latest
+        ports: 8686:8686
