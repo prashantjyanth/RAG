@@ -1,8 +1,4 @@
 langchain
-llama-index
+
 streamlit
-streamlit-authenticator
-ollama
-torch
-transformers
-chromadb
+

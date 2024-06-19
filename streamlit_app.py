@@ -17,12 +17,9 @@ with st.sidebar:
 if st.session_state['option']=="UPLOAD NEW DOCUMENT":
     adminusername = st.text_input("Admin Username")
     adminpassword = st.text_input("Admin Password", type="password")
-
 else:
-
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
-
 if st.button("Log in", type="primary"):
     if st.session_state['option']=="CHAT WITH AVALIBLE DOCUMENTS":
         if username == "test" and password == "test" :
